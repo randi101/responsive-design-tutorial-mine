@@ -124,7 +124,7 @@ nav ul li{
 }
 
 
-main{
+main,aside{
     padding: 0em 1em;
 }
 
@@ -147,4 +147,10 @@ main{
     flex-direction: column;
     gap: 1em;
     padding: .8em 0em;
+}
+
+
+
+.sidebar img{
+    width: 100%;
 }
