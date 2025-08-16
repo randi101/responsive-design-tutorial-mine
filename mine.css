@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* *****TYPOGRAPHY***** */
+
+html {
+    font-size: 14px;
+}
+
+/* Header */
+
+.logo h1{
+    font-family: 'Lora', sans-serif;
+    font-size: 2rem;
+}
+
+.logo p {
+    font-size: .75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: .2em;
+}
+
+nav a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+} 
+
+
+/* Main */
+
+.article-pic p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .875rem;
+    font-weight: light;
+}
+
+.article-content h2 {
+    font-family: 'Lora', sans-serif;
+    font-size: 1.5rem;
+}
+
+.article-content p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    font-weight: light;
+    line-height: 1.5em;
+}
+
+.article-content button {
+    font-size: .75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: .2em;
+    display: flex;
+}
+
+
+/* Aside/Sidebar */
+
+.sidebar h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sidebar p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    font-weight: light;
+}
+
+.sidebar h3{
+    font-family: 'Lora', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+/* Footer */
+
+footer h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+footer p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .875rem;
+    font-weight: light;
+}
+
+
+
+
+/* *****LAYOUT***** */
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    align-items: center;
+    padding: 2em 2em;
+    gap: 1.5em;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+nav ul li{
+    padding: .5em;
+}
+
+
+main{
+    padding: 0em 1em;
+}
+
+.article-post-featured {
+    border-bottom: 1px solid;
+}
+
+.article-post, .article-post-featured {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.article-pic img{
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: .8em 0em;
+}
