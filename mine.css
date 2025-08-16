@@ -100,7 +100,7 @@ footer p {
 
 
 
-/* *****LAYOUT***** */
+/* *****LAYOUT + STYLING***** */
 
 
 header {
@@ -150,7 +150,32 @@ main,aside{
 }
 
 
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 3em 0em;
+}
 
 .sidebar img{
-    width: 100%;
+    width: 100%; 
+}
+
+.sidebar-about-me{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.sidebar-posts{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 3em;
 }
