@@ -100,13 +100,12 @@ footer p {
 
 
 
-/* *****LAYOUT + STYLING***** */
+/* *****LAYOUT + LITTLE OF STYLING***** */
 
 
 header {
     display: flex;
     flex-direction: column;
-    background-color: greenyellow;
     align-items: center;
     padding: 2em 2em;
     gap: 1.5em;
@@ -116,7 +115,7 @@ nav ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: .5em;
+    gap: 1em;
 }
 
 nav ul li{
@@ -179,3 +178,113 @@ footer {
     text-align: center;
     padding: 3em;
 }
+
+
+
+/* *****STYLING***** */
+
+:root{
+    --blue: #143774;
+    --grey_70: #707070;
+    --grey_EB: #EBEBEB;
+}
+
+
+/* Header + Some Typography*/
+
+header {
+    background-color: #F8F8F8;
+}
+
+.logo h1{
+    color: var(--blue);
+}
+
+.logo p {
+    color: #1792D2;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #717171;
+    padding: .3em 0em;
+}
+
+nav .currentpage {
+    border-bottom: 3px solid;
+}
+
+
+/* Main */
+
+.article-pic p {
+    color: var(--grey_70);
+}
+
+.article-content h2 {
+    color: var(--blue)
+}
+
+.article-content p {
+    color: var(--grey_70)
+}
+
+.article-content button {
+    background: none;
+    border: none;
+    color: #1792D2;
+}
+
+/* Sidebar/Aside */
+
+.sidebar-content {
+    border: 1em solid var(--grey_EB);
+    padding: 1.5em;
+}
+
+.sidebar-content h2{
+    color: var(--blue);
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+
+.sidebar-about-me p {
+    color: var(--grey_70);
+}
+
+.sidebar-posts h3{
+    color: var(--blue);
+}
+
+.sidebar-post{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.sidebar-underline {
+    border-bottom: 3px solid var(--grey_EB);
+    padding-bottom: 1.5em;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: var(--blue);
+}
+
+footer {
+    color: white;
+}
+
+
+
+
+/* *****  LAPTOP VERSION >768px  ***** */
